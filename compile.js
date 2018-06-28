@@ -35,6 +35,9 @@ function template(content, meta){
 co(function *() {
   let lessonDirs = yield fs.readdir('lessons')
   for (let lessonDir of lessonDirs) {
+    if (lessonDir === '.gitignore') {
+      continue
+    }
     let indexFilePath = path.join('lessons', lessonDir, 'index.md')
     let homeworkFilePath = path.join('lessons', lessonDir, 'homework.md')
     let meta = yfm.loadFront(yield fs.readFile(indexFilePath))
