@@ -1,0 +1,211 @@
+/* --------- global ---------- */
+
+html, body {
+  font-family: Monaco, Inconsolata, 'Helvetica Neue';
+}
+
+body * {
+}
+
+body {
+  background: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  width: 700px;
+  margin: 5em auto;
+}
+
+#content p {
+  line-height: 1.8em;
+  font-family: Georgia, Serif;
+  font-size: 1.3em;
+  letter-spacing: 0.5px;
+}
+
+#content .vjs_video_3-dimensions {
+  width: 700px;
+}
+
+hr {
+  border: 0;
+  border-bottom: 4px dotted #000;
+}
+
+a {
+  color: #009cd2;
+}
+
+a:visited {
+  color: #dd2b81;
+}
+
+input {
+  background-color: #eee;
+}
+
+/* ------ lessons listing */
+
+ol.lessons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lessons li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* ------ Forms -------- */
+
+input, textarea, select, button {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: monaco, monospace;
+}
+
+input, textarea {
+  display: block;
+  font-size: 1em;
+  padding: 4px;
+}
+
+.form-row {
+  margin: 1em 0em;
+}
+
+.form-row .inline * {
+  display: inline;
+}
+
+.button {
+  border: 0px none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3em;
+  background-color: #009cd2;
+  color: #fff;
+  padding: 0.5em;
+  text-decoration: none;
+  font-family: monaco, monospace;
+}
+
+a.button {
+  color: #fff;
+}
+
+.button.small {
+  font-size: 0.8em;
+}
+
+.button.big {
+  padding: 1em;
+  margin: 1em 0;
+  font-size: 1.5em;
+}
+
+.button:hover {
+  background-color: #013a50;
+  color: #fff;
+}
+
+.button.alert {
+  background-color: #ff5817;
+}
+
+.button.alert:hover {
+  background: #862a06;
+}
+
+#form-errors div {
+  color: #a94442;
+  background-color: #f2dede;
+  padding: 1em;
+}
+
+/* ------ flash -------- */
+
+.flash {
+  background-color: #F9EDBE;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+.flash-success {
+  color: #009193;
+}
+
+.flash-error {
+  color: #941100;
+}
+
+/* ------ site header ---- */
+
+#site-header {
+  color: #fff;
+  padding: 5px 25px 5px 25px;
+  margin-bottom: 50px;
+  background-color: #222;
+}
+
+#site-header a {
+  color: #fff;
+}
+
+#site-header a {
+  text-transform: uppercase;
+}
+
+/* ------- Navigation ------------ */
+
+#nav {
+  float: right;
+}
+
+#nav ul {
+  margin: 0;
+}
+
+#nav ul li {
+  text-align: right;
+  list-style: none;
+  display: inline;
+}
+#nav ul {
+  list-style: none;
+  padding: 0;
+}
+#nav ul li a{
+  text-transform: uppercase;
+}
+
+/* -------- box ----------- */
+.box {
+  padding: 15px;
+  margin: 15px;
+  border: 5px solid #ccc;
+}
+
+h1, h2, h3, h4, h5 {
+}
+
+h1 { font-size: 3em; text-transform: uppercase; }
+h2 { font-size: 2.3em; }
+h3 { font-size: 1.9em; text-transform: uppercase; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; }
+
+/* -------- alerts ---------- */
+
+.alert-success {
+  background-color: #dff0d8;
+  padding: 0.5em;
+  border-radius: 3px;
+}
